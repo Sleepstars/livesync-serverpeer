@@ -1,8 +1,73 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# GitHub
+.github
+
+# Documentation
+README.md
+*.md
+docs/
+
+# Development files
+.env
+.env*
+__sys*
+
+# IDE files
 .vscode
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/**
+
+# Data directory (keep structure but exclude content)
 dat/**
 !dat/.gitkeep
-node_modules/**
+
+# Development artifacts
 D__*
-.env
-__sys*
-.env*
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Testing
+test/
+tests/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Build artifacts
+dist/
+build/
+out/
+coverage/
+
+# Scripts
+dockertest.sh
+scripts/
+
+# Temporary files
+tmp/
+temp/
